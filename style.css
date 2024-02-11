@@ -1,0 +1,169 @@
+/*ОФОРМЛЕНИЕ СТРАНИЦЫ И СЕКЦИЙ*/
+body {
+    background-color: #FBF0F0;
+}
+.section-first {
+    background-color: #FBF0F0;;
+}
+section {
+    background-color:#DFD3D3;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    margin: 30px auto;
+    max-width: 1200px;
+    border-radius: 50px;
+}
+#contacts {
+    background-color:#FBF0F0;
+}
+
+
+
+/*ОБЩЕЕ ДЛЯ СЕКЦИЙ*/
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+h2 {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+} 
+h4 {
+    font-size: 30px;
+    font-weight: 900;
+}
+bold {
+    font-weight: 900;
+}
+light {
+    font-size: 30px;
+    font-weight: 400;
+    color: #403F48;
+}
+
+
+
+/* СЕКЦИЯ-ВСТУПЛЕНИЕ */
+.nav li {
+    text-align: right;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.line {
+    max-width: 100%;
+    text-align: center;
+}
+
+
+
+
+/* ОБЩАЯ ИНФОРМАЦИЯ */
+.intro {
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 21px;
+    margin-right: 500px;
+}
+p .ava {
+    background-color: #403F48;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: end;
+}
+
+
+
+/* ИНТЕРЕСЫ */
+.hobby > p {
+    display: inline;
+}
+.hobby {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    display: inline;
+}
+.movie {
+    max-width: 70%;
+    border-radius: 5%;
+}
+
+
+/* НАВЫКИ */
+.skills {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#skills p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+.python {
+    height: 80px;
+    width: 80px;
+    opacity: 0.5;
+}
+
+
+
+/* ДОСТИЖЕНИЯ */
+.achieved {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+
+
+/* ПРОЕКТЫ */
+.h {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+}
+.prg {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+.scr-1 {
+    max-width: 80%;
+    text-align: left;
+}
+
+
+/* КОНТАКТЫ */
+#contacts h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contacts {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+}
+.tg {
+    height: 50px;
+    width: auto;
+    display: inline;
+}
+.mail {
+    height: 62px;
+    width: 110px;
+}
+.phone {
+    height: 50px;
+    width: 50px;
+}
+.img {
+    text-align: center;
+}
